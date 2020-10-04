@@ -11,3 +11,12 @@ Armed with ~500 heartbeat audio files of questionale quality on [Kaggle](https:/
 To create our mediocre multi-class classifier, we used transfer learning of a Convolutional Neural Network (CNN) -- a class of deep neural networks that while orginially desigend for image classifcation. The base archietcture we used for each of our ensemble models was a [ResNeXt-101-32x8d](https://github.com/facebookresearch/ResNeXt).
 
 The result -- Around 72% accuracy in predicting a heartbeat!
+
+
+--- Next Steps ----
+
+1. Learn better memory management in PyTorch! We ran out of RAM very quickly with higher DPI images
+2. Research audio signals to create better features or images
+3. Try other models! Would a RNN work better?
+4. Host models with a web service. Currently being run as part of the python scripts
+5. Take a nap
