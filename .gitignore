@@ -1,0 +1,10 @@
+
+# VS Code
+.vscode/
+
+# Notebooks + Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Models
+model/*
