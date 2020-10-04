@@ -8,6 +8,6 @@ To help you find out, we've developed a kinda-sorta accurate heartbeat classifie
 
 Armed with ~500 heartbeat audio files of questionale quality on [Kaggle](https://www.kaggle.com/kinguistics/heartbeat-sounds), we transformed the audio files into different visual representations of frequency and pitch.
 
-To create our mediocre multi-class classifier, we used transfer learning of a Convolutional Neural Network (CNN) -- a class of deep neural networks that while orginially desigend for image classifcation. The base archietcture we used for each of our ensemble models was a (ResNeXt-101-32x8d)[https://github.com/facebookresearch/ResNeXt].
+To create our mediocre multi-class classifier, we used transfer learning of a Convolutional Neural Network (CNN) -- a class of deep neural networks that while orginially desigend for image classifcation. The base archietcture we used for each of our ensemble models was a [ResNeXt-101-32x8d](https://github.com/facebookresearch/ResNeXt).
 
 The result -- Around 72% accuracy in predicting a heartbeat!
