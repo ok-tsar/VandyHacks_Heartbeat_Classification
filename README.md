@@ -12,6 +12,7 @@ To create our mediocre multi-class classifier, we used transfer learning of a Co
 
 The result -- Around 72% accuracy in predicting a heartbeat!
 
+Veiw our short presentation here -- https://vimeo.com/464714674
 
 --- Next Steps ----
 
